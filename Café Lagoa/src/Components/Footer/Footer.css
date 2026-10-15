@@ -1,0 +1,19 @@
+.pe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: var(--largura-maxima);
+    margin: 0 auto;
+    padding: 24px;
+    border-top: 1px solid var(--cor-borda);
+    font-size: 14px;
+    color: var(--cor-texto-suave);
+  }
+  
+  .redes {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
