@@ -1,16 +1,20 @@
 .hero {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: baseline;
+    align-items: center;
+    justify-content: space-between;
     gap: 16px;
-    text-align: center;
+    text-align: baseline;
     padding: 72px 24px;
     background-color: var(--fundo-cards-secao-hero);
+    margin: 10px;
 }
 
 .hero span {
     display: flex;
     font-family: "LimeLight";
+    justify-items: baseline;
     font-size: 50px;
     font-weight: bolder;
     color: #000000;
@@ -33,14 +37,14 @@
 .acoes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: baseline;
     gap: 16px;
     margin-top: 8px;
 }
 
 .botao {
     border: 2px solid var(--primaria);
-    padding: 8px 22px;
+    padding: 10px 22px;
     font-size: 15px;
     font-weight: 700;
 }
@@ -63,46 +67,77 @@
     padding: 56px 24px;
 }
 
-.servicos h2 {
-    font-size: 24px;
+.servicos h1 {
+    font-size: 30px;
     font-weight: 600;
-    margin-bottom: 24px;
+    font-family: "LimeLight";
+}
+
+.servicos h3 {
+    font-size: 16px;
 }
 
 .grade-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 30px;    
 }
 
 .card {
-    background-color: var(--cor-fundo-suave);
-    border-radius: var(--raio);
-    padding: 24px;
+    display: flex;
+    background-color: #ffffff;
+    padding: 100px 30px;
+    border-radius: 10px;
+    flex-direction: column;
+    transition: transform ease-in-out 0.2s;
+    margin: 20px;
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
 
 .card h3 {
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     margin-bottom: 6px;
 }
 
 .card p {
     font-size: 14px;
+    font-weight: 600;
     color: var(--cor-texto-suave);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.imgcard {
+    width: 300px;
+    height: 300px;
+}
+
+.acima {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .blocao {
     display: flex;
     background-color: var(--fundo-placeholder);
     width: 500px;
-    height: 300px;
+    height: 400px;
+    margin-right: 100px;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-    transition: transform ease-in-out 0.5s;
 }
 
-.blocao:hover {
-    transform: scale(1.05);
+#imgblocao {
+    display: flex;
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
 }
