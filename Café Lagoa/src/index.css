@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 :root {
   --primaria: #235852;
   --primaria-hover: #1a433e;
@@ -16,7 +18,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans";
   color: var(--primaria);
   background-color: var(--fundo-da-secao-meio);
   line-height: 1.6;
@@ -31,6 +33,7 @@ a:focus-visible {
   outline: 2px solid var(--cor-destaque);
   outline-offset: 3px;
 }
+
 .cabecalho {
   display: flex;
   align-items: center;
@@ -39,20 +42,22 @@ a:focus-visible {
   max-width: var(--largura-maxima);
   margin: 0 auto;
   padding: 20px 24px;
-  border-bottom: 1px solid var(--cor-borda);
+  border-bottom: 1px solid var(--fundo-placeholder);
+  background-color: var(--fundo-cards-secao-hero);
 }
+
 .logo{
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-family: "LimeLight";
+  font-size: 30px;
   font-weight: 600;
 }
 
-
 #imglogo{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 35px;
+  height: auto;
+  padding-right: 10px
 }
 
 .logo-container {
@@ -67,5 +72,10 @@ a:focus-visible {
   gap: 24px;
   list-style: none;
   font-size: 15px;
-  color: var(--cor-texto-suave);
+  color: var(--primaria);
+}
+
+.menu a {
+  font-size: 16px;
+  font-weight: 600;
 }

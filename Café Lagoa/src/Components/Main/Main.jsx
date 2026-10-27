@@ -4,12 +4,15 @@ function Main () {
     return (
         <main>
         <section class="hero" id="hero">
-            <h1>Café coado, vista<br></br>para a lagoa</h1>
+            <div>
+            <span>Café coado, vista<br></br>para a lagoa.</span>
             <p>Grãos de pequenos produtores do sul do Brasil, pães de fermentação natural e doces feitos todos os dias aqui na casa.</p>
             <div class="acoes">
                 <a class="botao botao-cheio" href="#">Ver Cardapio</a>
-                <a class="botao botao-vazado" href="#">Fale com a Gente</a>
+                <a class="botao botao-vazado" href="#">Fale com a gente</a>
             </div>
+            </div>
+            <div class="blocao"><img src=".Café-lagoa_Main"></img></div>
         </section>
         <section class="servicos" id="servicos">
             <h2>Nossos serviços</h2>
