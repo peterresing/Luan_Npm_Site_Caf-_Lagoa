@@ -55,10 +55,18 @@
     border-radius: 30px;
 }
 
+.botao-cheio:hover {
+    background-color: var(--primaria-hover);
+}
+
 .botao-vazado {
     background-color: transparent;
     color: var(--cor-destaque);
     border-radius: 30px;
+}
+
+.botao-vazado:hover {
+    background-color: var(--fundo-placeholder);
 }
 
 .servicos {
@@ -70,11 +78,24 @@
 .servicos h1 {
     font-size: 30px;
     font-weight: 600;
-    font-family: "LimeLight";
+    font-family: "IBM Plex Serif";
+    color: #000000;
+}
+
+.servicos a {
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    color: var(--primaria);
+    font-weight: 650;
+    text-decoration: underline;
+    font-family: 'Courier New';
 }
 
 .servicos h3 {
     font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .categorias {
@@ -99,7 +120,7 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    gap: 30px;    
+    gap: 10px;    
 }
 
 .card {

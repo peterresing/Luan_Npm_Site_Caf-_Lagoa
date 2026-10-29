@@ -1,19 +1,75 @@
 .pe {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 12px;
-    max-width: var(--largura-maxima);
-    margin: 0 auto;
-    padding: 24px;
-    border-top: 1px solid var(--primaria);
-    font-size: 14px;
-    color: var(--texto-princial);
-  }
-  
-  .redes {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  max-width: var(--largura-maxima);
+  margin: 0 auto;
+  padding: 24px;
+  border-top: 1px solid var(--primaria);
+  font-size: 14px;
+  color: var(--texto-princial);
+}
+
+.redes {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.facima {
+  display: flex;
+  width: fill;
+  height: 150px;
+  background-color: var(--fundo-cards-secao-hero);
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.facima h1 {
+  font-size: 20px;
+}
+
+.facima h2 {
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+.imgfacima {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.divisao{
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  width: fill;
+  height: 100px;
+  background-color: var(--fundo-rodape);
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer span{
+  font-size: 25px;
+  color: #ffffff;
+  font-family: "IBM Plex Serif";
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 15px;
+  color: var(--texto-secundario);
+  margin-right: 50px;
+}

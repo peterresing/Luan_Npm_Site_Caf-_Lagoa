@@ -23,6 +23,7 @@ function Main () {
         </section>
         <section class="servicos" id="servicos">
             <h1>Mais Pedidos</h1>
+            <a href="#">Ver cardápio completo →</a>
             <h3>Os favoritos de quem passa por aqui</h3>
             <div class="grade-cards">
                 <article class="card">
